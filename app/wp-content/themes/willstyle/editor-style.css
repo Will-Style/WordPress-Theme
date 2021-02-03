@@ -1,0 +1,6 @@
+@import url("/dist/css/styles.css");
+#tinymce{
+	margin: 30px;
+    background-color: #FFF;
+    width: auto !important;
+}
