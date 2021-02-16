@@ -1,3 +1,9 @@
+
+
+<Files w-logo-blue.png>
+  Satisfy any
+  allow from all
+</Files>
 <Files ~ "^\.(htaccess|htpasswd)$">
 deny from all
 </Files>
