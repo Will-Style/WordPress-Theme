@@ -17,7 +17,8 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
 	<link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name');?> &raquo; フィード" href="<?php echo home_url('/');?>feed/" /><?php wp_head(); ?>
-	<link rel="stylesheet" href="<?php echo ROOT;?>dist/css/styles.css?date=20200323">
+	<link rel="stylesheet" href="<?php echo ROOT;?>dist/css/styles.css">
+	<script src="<?php echo ROOT;?>dist/js/bundle.js" id="bundle" charset="utf-8" defer></script>
     <?php $Core->ga();?>
 </head>
 <body data-barba="wrapper">
