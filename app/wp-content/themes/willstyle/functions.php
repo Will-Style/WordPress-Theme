@@ -241,7 +241,7 @@ function catch_that_image($meta = null, $size = "large")
 	if(empty($first_img))
 	{ 
 		//Defines a default image
-    	$first_img = esc_url(home_url('/assets/img/')) . 'dummy.jpg';
+    	$first_img = esc_url(home_url('/dist/img/')) . 'dummy.jpg';
    	}
 
 	return $first_img;
